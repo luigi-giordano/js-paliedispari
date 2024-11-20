@@ -1,8 +1,6 @@
 //CHIEDERE ALL'UTENTE DI INSERIRE UNA PAROLA
 let parolaDaInserire = prompt('Inserisci una parola:');
 let message = '';
-let parolaUno = 'Marco';
-let parolaDue = 'Radar';
 
 //FUNZIONE
 function isPalindromo(parola){
