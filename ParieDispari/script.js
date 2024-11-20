@@ -2,11 +2,6 @@
 //const numGiocatore = Math.ceil(Math.random() * 5)
 //const numComputer = Math.ceil(Math.random() * 5)
 
-//FUNZIONE PER GENERARE NUMERO CASUALE DA 1 A 5
-function numeroRandom() {
-  return Math.ceil(Math.random() * 5);
-}
-
 //GENERA IL NUMERO RANDOM PER GIOCATORE E PC
 const numComputer = numeroRandom();
 const numGiocatore = numeroRandom();
@@ -35,4 +30,9 @@ if(messaggio === sceltaGiocatore){
   console.log('Il Giocatore ha vinto!');
 } else {
   console.log('Il Computer ha vinto!');
+}
+
+//FUNZIONE PER GENERARE NUMERO CASUALE DA 1 A 5
+function numeroRandom() {
+  return Math.ceil(Math.random() * 5);
 }
